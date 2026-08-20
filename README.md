@@ -18,9 +18,6 @@ A simple penalty kick game built with Vite and vanilla JavaScript for JavaScript
 - JavaScript
 - canvas-confetti
 
-## Run locally
+## Live Demo
 
-```bash
-npm install
-npm run dev
-```
+https://julius-astikas.github.io/js-adv-assignment-4-vite/
