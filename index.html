@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penalty Kick Game</title>
+  </head>
+
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Spain Victory Shoot</h1>
+        <p>Drive the ball to the shoot line, then kick!</p>
+      </header>
+
+      <section id="pitch" class="pitch" aria-label="Football pitch">
+        <div class="goal" aria-hidden="true"></div>
+        <div id="goalkeeper" class="goalkeeper" aria-hidden="true"></div>
+        <div class="shoot-line" aria-hidden="true"></div>
+        <div id="startMark" class="start-mark" aria-hidden="true"></div>
+        <div id="ball" class="ball" aria-label="Ball"></div>
+        <p id="result" class="result" aria-live="polite"></p>
+      </section>
+
+      <div class="controls">
+        <button id="shootBtn" type="button">Shoot</button>
+      </div>
+
+      <ul class="hint">
+        <li><strong>Short arrow press</strong> — moves the ball a little</li>
+        <li><strong>Hold an arrow</strong> — keeps the ball moving</li>
+        <li>
+          <strong>Click the pitch</strong> — places the ball (not past the shoot
+          line)
+        </li>
+        <li>
+          <strong>Shoot line</strong> — limit before the goal; only a shot can
+          go beyond
+        </li>
+        <li>
+          <strong>Space</strong> or <strong>Shoot</strong> — kicks the ball
+          toward the goal
+        </li>
+      </ul>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
